@@ -1,0 +1,15 @@
+CREATE TABLE `grievances1` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `register_number` VARCHAR(255) NOT NULL,
+    `grievance_type` VARCHAR(255) NOT NULL,
+    `document1` VARCHAR(255),
+    `document2` VARCHAR(255),
+    `document3` VARCHAR(255),
+    `document4` VARCHAR(255),
+    `document5` VARCHAR(255),
+    `document6` VARCHAR(255),
+    `document7` VARCHAR(255),
+    `document8` VARCHAR(255),
+    `document9` VARCHAR(255),
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
